@@ -1,0 +1,82 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(15, 25, 35, 1);
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #FD4754;
+}
+
+#search {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+}
+
+#agentes-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.agent-card {
+    background-color:rgba(236, 233, 225, 1);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.agent-card:hover {
+    transform: translateY(-5px);
+}
+
+.agent-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+.agent-card h2 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #FD4754;
+}
+
+.agent-card p {
+    margin: 5px 0;
+    color: #666;
+
+}
+
+.abilities {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+    
+}
+
+.abilities li {
+    background-color: #FD4754;
+    color: #fff;
+    padding: 5px;
+    margin: 5px 0;
+
+    font-size: 14px;
+}
